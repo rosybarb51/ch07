@@ -4,6 +4,8 @@ public class CellPhone {
 	String model;
 	String color;
 	
+//	명시적으로 입력된 생성자가 없기 때문에 자손 객체의 생성자에서 자동으로 super()을 사용하여 부모 객체의 기본 생성자를 호출함.
+	
 //	void 앞에 접근 제한자 안 적으면 default 접근 제한자 적용됨
 	void powerOn() {
 		System.out.println("전원을 켭니다.");
