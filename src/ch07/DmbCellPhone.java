@@ -32,4 +32,23 @@ public class DmbCellPhone extends CellPhone {
 	void turnOffDmb() {
 		System.out.println("방송 수신을 끕니다.");
 	}
+	
+	
+//	@어노테이션~! 오버라이드
+	@Override
+	void powerOn() {
+		System.out.println("DMB 폰의 전원을 켭니다.");
+	}
+	@Override
+	void powerOff() {
+		System.out.println("DMB 폰의 전원을 끕니다.");
+	
+	}
+	
+	@Override
+	void bell() {
+		System.out.println("DMB 폰의 벨소리가 울립니다.");
+	
+	}
+	
 }
